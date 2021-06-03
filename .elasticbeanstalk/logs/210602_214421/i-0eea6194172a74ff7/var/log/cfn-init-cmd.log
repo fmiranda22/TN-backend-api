@@ -1,0 +1,23 @@
+2021-06-03 01:39:44,698 P3204 [INFO] ************************************************************
+2021-06-03 01:39:44,698 P3204 [INFO] ConfigSet _OnInstanceBoot
+2021-06-03 01:39:44,702 P3204 [INFO] ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2021-06-03 01:39:44,702 P3204 [INFO] Config AWSEBBaseConfig
+2021-06-03 01:39:44,911 P3204 [INFO] ============================================================
+2021-06-03 01:39:44,911 P3204 [INFO] Command clearbackupfiles
+2021-06-03 01:39:44,916 P3204 [INFO] Completed successfully.
+2021-06-03 01:39:44,921 P3204 [INFO] ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2021-06-03 01:39:44,921 P3204 [INFO] Config AWSEBCfnHupEndpointOverride
+2021-06-03 01:39:44,922 P3204 [INFO] ============================================================
+2021-06-03 01:39:44,922 P3204 [INFO] Command clearbackupfiles
+2021-06-03 01:39:44,925 P3204 [INFO] Completed successfully.
+2021-06-03 01:40:44,608 P3387 [INFO] ************************************************************
+2021-06-03 01:40:44,608 P3387 [INFO] ConfigSet Infra-EmbeddedPreBuild
+2021-06-03 01:40:44,611 P3387 [INFO] ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2021-06-03 01:40:44,611 P3387 [INFO] Config prebuild_0_backend_v3
+2021-06-03 01:40:44,611 P3387 [INFO] ============================================================
+2021-06-03 01:40:44,611 P3387 [INFO] Command set-instance-credit-unlimited
+2021-06-03 01:40:45,872 P3387 [INFO] -----------------------Command Output-----------------------
+2021-06-03 01:40:45,873 P3387 [INFO] 	
+2021-06-03 01:40:45,873 P3387 [INFO] 	An error occurred (UnauthorizedOperation) when calling the ModifyInstanceCreditSpecification operation: You are not authorized to perform this operation. Encoded authorization failure message: uHNkq94gFCCuhL-16z5c-3w2SDWiyq-WZdCV8AdJQNqSCqOJGDGhxEOGOUogWVW16T6GfzyOq2McRGBOvc3qLcuEWyTVD-V5q2AlzkYuXVIy-Ny5KiX9BZWuJ5mHeF-bXWHu1OXaKEhNwQqlue55IPEMBvVpC0f8yTuiLnuOQLGOR-HUgPhC28fEnKUnaFpuE5IAUiYfzvoakgNwovqnv0O0aZPQ696eqTevuJCcZecExcvgTl279oooXost4o51zRwdtE-YV5tCMd5hcumJ_0d2qhNmQqTnWD1Ab4fHfILsf3cKF5a-0Ey4-VENNmMKUeBNGf_L246-OwgpSMdi5Ft7Z9SlMp5T2_o4BTmnvReAiNn5GhlZ5hQsPgvKvSVBH0RxGe73gw5xY190J3Bi2HfMI2WdviByXDCv1gty8xoLNQNoYseqR1R5W4wzr6PtVaps0RHhpALWYIAYoHfXba_aGNwDRplE-LQc8gFsdMcrjaxKqJy1D4fw50yJ-HQegiFd-mSCc3Znw4A91KCHtalSonSR6lKeT8vQ4ozIZntcyJm-jMNpIt7feFXkRc6mD16rfRgvoR3uy2yu9HOpKmqyW_T0qSAk_3_wZOTgOyl6LpHYeD3PubfVqAIe-OU3_FSr4cNtsRMu-q_ZaIuNWy4BETz4o4dg1k_ACePXRvXVlFeedL3FbHfC3SILcUiiN09s-irkXYlgBR3hmiAWxX6ArokiBlVC88b9A0Xpt8CuuV2yo0XiBw9ttpLQyfO-49kXPgv7SYo_rzeOCa5LB0g5IzQ9QD0TjGAU_--eiIZ9JjClIbLfbrHmzcgdYLrEF_aHqKC4NfmL8GE2qNwmMxr7gTqxNshBb5N8hLPJODIdIaCcgMc_WNqvDIQPwgNUr1KD9I8IEAvGEURg2PL5VopyPIezOIZgf6CbAH3YPtbBMdknlRkLiUKgBhtiFTHVamjAjti0mz0vRd_OKc1yMaLptV_WuiR_-9n-nyNCZJrDVsqRBXiGsCyKRpKpjNRgRytZn0ETLWjdQazg8tcYxZQVLArsw3_Uk9cwIjevz143U91l4LtNVS2oqQ3P0mWh41Z87WXwkG0VyRgsq0NaU7BWJiuFhzyQGk0q1O9hDod3H-E
+2021-06-03 01:40:45,873 P3387 [INFO] ------------------------------------------------------------
+2021-06-03 01:40:45,873 P3387 [ERROR] Exited with error code 255

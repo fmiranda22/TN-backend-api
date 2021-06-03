@@ -1,0 +1,40 @@
+2021-06-03 01:39:44,688 [INFO] -----------------------Starting build-----------------------
+2021-06-03 01:39:44,695 [INFO] Running configSets: _OnInstanceBoot
+2021-06-03 01:39:44,698 [INFO] Running configSet _OnInstanceBoot
+2021-06-03 01:39:44,702 [INFO] Running config AWSEBBaseConfig
+2021-06-03 01:39:44,916 [INFO] Command clearbackupfiles succeeded
+2021-06-03 01:39:44,921 [INFO] Running config AWSEBCfnHupEndpointOverride
+2021-06-03 01:39:44,925 [INFO] Command clearbackupfiles succeeded
+2021-06-03 01:39:44,927 [INFO] ConfigSets completed
+2021-06-03 01:39:44,927 [INFO] -----------------------Build complete-----------------------
+2021-06-03 01:40:44,598 [INFO] -----------------------Starting build-----------------------
+2021-06-03 01:40:44,605 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2021-06-03 01:40:44,608 [INFO] Running configSet Infra-EmbeddedPreBuild
+2021-06-03 01:40:44,611 [INFO] Running config prebuild_0_backend_v3
+2021-06-03 01:40:45,873 [ERROR] Command set-instance-credit-unlimited (aws ec2 modify-instance-credit-specification --region us-west-2 --instance-credit-specification '[{"InstanceId": "'"$(TOKEN=`curl -s -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"` && curl -s -H "X-aws-ec2-metadata-token: $TOKEN" http://169.254.169.254/latest/meta-data/instance-id)"'","CpuCredits": "unlimited"}]'
+) failed
+2021-06-03 01:40:45,873 [ERROR] Error encountered during build of prebuild_0_backend_v3: Command set-instance-credit-unlimited failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/cfnbootstrap/construction.py", line 573, in run_config
+    CloudFormationCarpenter(config, self._auth_config).build(worklog)
+  File "/usr/lib/python3.7/site-packages/cfnbootstrap/construction.py", line 273, in build
+    self._config.commands)
+  File "/usr/lib/python3.7/site-packages/cfnbootstrap/command_tool.py", line 127, in apply
+    raise ToolError(u"Command %s failed" % name)
+cfnbootstrap.construction_errors.ToolError: Command set-instance-credit-unlimited failed
+2021-06-03 01:40:45,876 [ERROR] -----------------------BUILD FAILED!------------------------
+2021-06-03 01:40:45,876 [ERROR] Unhandled exception during build: Command set-instance-credit-unlimited failed
+Traceback (most recent call last):
+  File "/opt/aws/bin/cfn-init", line 176, in <module>
+    worklog.build(metadata, configSets)
+  File "/usr/lib/python3.7/site-packages/cfnbootstrap/construction.py", line 135, in build
+    Contractor(metadata).build(configSets, self)
+  File "/usr/lib/python3.7/site-packages/cfnbootstrap/construction.py", line 561, in build
+    self.run_config(config, worklog)
+  File "/usr/lib/python3.7/site-packages/cfnbootstrap/construction.py", line 573, in run_config
+    CloudFormationCarpenter(config, self._auth_config).build(worklog)
+  File "/usr/lib/python3.7/site-packages/cfnbootstrap/construction.py", line 273, in build
+    self._config.commands)
+  File "/usr/lib/python3.7/site-packages/cfnbootstrap/command_tool.py", line 127, in apply
+    raise ToolError(u"Command %s failed" % name)
+cfnbootstrap.construction_errors.ToolError: Command set-instance-credit-unlimited failed
